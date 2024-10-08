@@ -1,5 +1,5 @@
 import random
-options=["剪刀","石头","布"]
+options=["剪刀","石头","布"]# 定义游戏选项（列表），包括 "剪刀", "石头", "布" 三种选项
 user_choice=input("请输入剪刀，石头或布：")
 number_choice=random.choice(options)
 print(user_choice)
