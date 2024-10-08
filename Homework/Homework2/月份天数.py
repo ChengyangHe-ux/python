@@ -6,4 +6,3 @@ if (year%4==0 and year%100!=0)or (year%400==0):#如果是闰年 则2月变为29�
 print(f"{year}年{month}月有{months[month-1]}天")
 
 
-1
